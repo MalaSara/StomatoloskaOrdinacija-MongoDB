@@ -1,0 +1,35 @@
+MongoDB - Aplikacija za vodjenje dokumentacije stomatoloskih radnji. Za stomatologa se pamte pacijenti, a za pacijente intervencije koje su radjene. Moguce je zakazati termin kod odredjenog stomatologa. 
+
+
+
+Stomatolog 
+id
+specijalizacija
+ime, prezime
+godine iskustva
+sertifikati
+Lista pacijenata
+Lista tehnicara
+zakazani termini
+
+Tehnicar
+id
+ime,prezime
+Stomatolog sa kime je radio
+
+
+Pacijent
+id  
+broj kartona
+ime,prezime
+datum rodjenja
+lista intervencija
+alergije
+Stomatolog stomatologPacijenta
+
+Stomatoloska radnja
+id
+naziv
+lista stomatologa
+lista stomatoloskih sestara - obicna lista
+lista tehnicara
