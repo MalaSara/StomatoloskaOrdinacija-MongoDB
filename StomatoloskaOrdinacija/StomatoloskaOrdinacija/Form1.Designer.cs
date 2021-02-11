@@ -32,10 +32,13 @@ namespace StomatoloskaOrdinacija
             this.grbStomatolog = new System.Windows.Forms.GroupBox();
             this.grpTehnicar = new System.Windows.Forms.GroupBox();
             this.grbPacijent = new System.Windows.Forms.GroupBox();
+            this.btnDodajStomatologa = new System.Windows.Forms.Button();
+            this.grbStomatolog.SuspendLayout();
             this.SuspendLayout();
             // 
             // grbStomatolog
             // 
+            this.grbStomatolog.Controls.Add(this.btnDodajStomatologa);
             this.grbStomatolog.Location = new System.Drawing.Point(12, 12);
             this.grbStomatolog.Name = "grbStomatolog";
             this.grbStomatolog.Size = new System.Drawing.Size(200, 251);
@@ -61,6 +64,16 @@ namespace StomatoloskaOrdinacija
             this.grbPacijent.TabStop = false;
             this.grbPacijent.Text = "Pacijent";
             // 
+            // btnDodajStomatologa
+            // 
+            this.btnDodajStomatologa.Location = new System.Drawing.Point(21, 32);
+            this.btnDodajStomatologa.Name = "btnDodajStomatologa";
+            this.btnDodajStomatologa.Size = new System.Drawing.Size(135, 23);
+            this.btnDodajStomatologa.TabIndex = 3;
+            this.btnDodajStomatologa.Text = "Dodaj stomatologa";
+            this.btnDodajStomatologa.UseVisualStyleBackColor = true;
+            this.btnDodajStomatologa.Click += new System.EventHandler(this.btnDodajStomatologa_Click);
+            // 
             // StomatoloskaOrdinacija
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -71,6 +84,7 @@ namespace StomatoloskaOrdinacija
             this.Controls.Add(this.grbStomatolog);
             this.Name = "StomatoloskaOrdinacija";
             this.Text = "Stomatoloska ordinacija";
+            this.grbStomatolog.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -80,6 +94,7 @@ namespace StomatoloskaOrdinacija
         private System.Windows.Forms.GroupBox grbStomatolog;
         private System.Windows.Forms.GroupBox grpTehnicar;
         private System.Windows.Forms.GroupBox grbPacijent;
+        private System.Windows.Forms.Button btnDodajStomatologa;
     }
 }
 

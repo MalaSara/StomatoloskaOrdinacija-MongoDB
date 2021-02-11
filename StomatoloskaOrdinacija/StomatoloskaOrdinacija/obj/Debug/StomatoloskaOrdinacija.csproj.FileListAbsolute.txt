@@ -25,3 +25,4 @@ F:\elfak\moje\IV godina\7 semestar\NBP\Domaci3\StomatoloskaOrdinacija-MongoDB\St
 F:\elfak\moje\IV godina\7 semestar\NBP\Domaci3\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\MongoDB.Driver.Core.xml
 F:\elfak\moje\IV godina\7 semestar\NBP\Domaci3\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\System.Buffers.xml
 F:\elfak\moje\IV godina\7 semestar\NBP\Domaci3\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\obj\Debug\StomatoloskaOrdinacija.csprojAssemblyReference.cache
+F:\elfak\moje\IV godina\7 semestar\NBP\Domaci3\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\obj\Debug\StomatoloskaOrdinacija.StomatoloskaOrdinacija.resources
