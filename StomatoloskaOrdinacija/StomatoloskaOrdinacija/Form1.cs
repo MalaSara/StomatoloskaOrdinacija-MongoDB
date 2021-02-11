@@ -1,4 +1,5 @@
 ﻿using MongoDB.Driver;
+using MongoDB.Driver.Linq;
 using MongoDB.Bson;
 using System;
 using System.Collections.Generic;
@@ -50,6 +51,12 @@ namespace StomatoloskaOrdinacija
 
             collection.InsertOne(s2);
 
+        }
+
+        private void btnSviStomatolozi_Click(object sender, EventArgs e)
+        {
+            SviStomatolozi forma = new SviStomatolozi();
+            forma.Show();
         }
     }
 }

@@ -30,14 +30,16 @@ namespace StomatoloskaOrdinacija
         private void InitializeComponent()
         {
             this.grbStomatolog = new System.Windows.Forms.GroupBox();
+            this.btnDodajStomatologa = new System.Windows.Forms.Button();
             this.grpTehnicar = new System.Windows.Forms.GroupBox();
             this.grbPacijent = new System.Windows.Forms.GroupBox();
-            this.btnDodajStomatologa = new System.Windows.Forms.Button();
+            this.btnSviStomatolozi = new System.Windows.Forms.Button();
             this.grbStomatolog.SuspendLayout();
             this.SuspendLayout();
             // 
             // grbStomatolog
             // 
+            this.grbStomatolog.Controls.Add(this.btnSviStomatolozi);
             this.grbStomatolog.Controls.Add(this.btnDodajStomatologa);
             this.grbStomatolog.Location = new System.Drawing.Point(12, 12);
             this.grbStomatolog.Name = "grbStomatolog";
@@ -45,6 +47,16 @@ namespace StomatoloskaOrdinacija
             this.grbStomatolog.TabIndex = 0;
             this.grbStomatolog.TabStop = false;
             this.grbStomatolog.Text = "Stomatolog";
+            // 
+            // btnDodajStomatologa
+            // 
+            this.btnDodajStomatologa.Location = new System.Drawing.Point(21, 32);
+            this.btnDodajStomatologa.Name = "btnDodajStomatologa";
+            this.btnDodajStomatologa.Size = new System.Drawing.Size(135, 23);
+            this.btnDodajStomatologa.TabIndex = 3;
+            this.btnDodajStomatologa.Text = "Dodaj stomatologa";
+            this.btnDodajStomatologa.UseVisualStyleBackColor = true;
+            this.btnDodajStomatologa.Click += new System.EventHandler(this.btnDodajStomatologa_Click);
             // 
             // grpTehnicar
             // 
@@ -64,15 +76,15 @@ namespace StomatoloskaOrdinacija
             this.grbPacijent.TabStop = false;
             this.grbPacijent.Text = "Pacijent";
             // 
-            // btnDodajStomatologa
+            // btnSviStomatolozi
             // 
-            this.btnDodajStomatologa.Location = new System.Drawing.Point(21, 32);
-            this.btnDodajStomatologa.Name = "btnDodajStomatologa";
-            this.btnDodajStomatologa.Size = new System.Drawing.Size(135, 23);
-            this.btnDodajStomatologa.TabIndex = 3;
-            this.btnDodajStomatologa.Text = "Dodaj stomatologa";
-            this.btnDodajStomatologa.UseVisualStyleBackColor = true;
-            this.btnDodajStomatologa.Click += new System.EventHandler(this.btnDodajStomatologa_Click);
+            this.btnSviStomatolozi.Location = new System.Drawing.Point(21, 78);
+            this.btnSviStomatolozi.Name = "btnSviStomatolozi";
+            this.btnSviStomatolozi.Size = new System.Drawing.Size(135, 23);
+            this.btnSviStomatolozi.TabIndex = 3;
+            this.btnSviStomatolozi.Text = "Svi stomatolozi";
+            this.btnSviStomatolozi.UseVisualStyleBackColor = true;
+            this.btnSviStomatolozi.Click += new System.EventHandler(this.btnSviStomatolozi_Click);
             // 
             // StomatoloskaOrdinacija
             // 
@@ -95,6 +107,7 @@ namespace StomatoloskaOrdinacija
         private System.Windows.Forms.GroupBox grpTehnicar;
         private System.Windows.Forms.GroupBox grbPacijent;
         private System.Windows.Forms.Button btnDodajStomatologa;
+        private System.Windows.Forms.Button btnSviStomatolozi;
     }
 }
 
