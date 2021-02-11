@@ -26,7 +26,7 @@ namespace StomatoloskaOrdinacija
             var database = client.GetDatabase("stomatoloskaOrdinacija");
 
             var collection = database.GetCollection<Stomatolog>("stomatolozi");
-            
+
 
             Stomatolog s1 = new Stomatolog
             {
@@ -39,6 +39,16 @@ namespace StomatoloskaOrdinacija
             };
 
             collection.InsertOne(s1);
+
+            Stomatolog s2 = new Stomatolog
+            {
+                Specijalizacija = "Proteticar",
+                Ime = "Slavica",
+                Prezime = "Mladenovic",
+                GodineIskustva = 20
+            };
+
+            collection.InsertOne(s2);
 
         }
     }
