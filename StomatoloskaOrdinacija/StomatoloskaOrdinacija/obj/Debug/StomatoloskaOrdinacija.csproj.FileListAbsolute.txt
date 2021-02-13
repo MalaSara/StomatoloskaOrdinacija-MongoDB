@@ -54,3 +54,6 @@ D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\Stomatolo
 D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\DnsClient.xml
 D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\Snappy.NET.xml
 D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\SharpCompress.dll
+D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\obj\Debug\StomatoloskaOrdinacija.SviTehnicari.resources
+D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\System.Buffers.dll
+D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll

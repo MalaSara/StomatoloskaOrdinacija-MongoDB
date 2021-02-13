@@ -65,6 +65,8 @@ namespace StomatoloskaOrdinacija
             var database = client.GetDatabase("stomatoloskaOrdinacija");
 
             var collection = database.GetCollection<Tehnicar>("tehnicari");
+            var collectionstom = database.GetCollection<Stomatolog>("stomatolozi");
+
 
             Tehnicar t1 = new Tehnicar
             {
@@ -73,7 +75,15 @@ namespace StomatoloskaOrdinacija
                 Stomatolozi = new List<ObjectId>()
    
             };
-            t1.Stomatolozi.Add(new ObjectId("6025bb1baa45380a97b7a9d2"));
+            //collectionstom.Find()
+            var query1 = from stomatolog in collectionstom.AsQueryable<Stomatolog>()
+                         where stomatolog.Ime == "Slavica"
+                         select stomatolog;
+            foreach(Stomatolog s in query1)
+            {
+                t1.Stomatolozi.Add(new ObjectId(s.Id.ToString()));
+                
+            }
             
             Tehnicar t2 = new Tehnicar
             {
@@ -81,20 +91,47 @@ namespace StomatoloskaOrdinacija
                 Prezime = "Petrovic",
                 Stomatolozi=new List<ObjectId>()
             };
-            t2.Stomatolozi.Add(new ObjectId("6025bed6b40d411c47819c28"));
-      
+            //t2.Stomatolozi.Add(new ObjectId("6025bed6b40d411c47819c28"));
+            var query2 = from stomatolog in collectionstom.AsQueryable<Stomatolog>()
+                         where stomatolog.Ime == "Emilija"
+                         select stomatolog;
+            foreach (Stomatolog s in query2)
+            {
+                t2.Stomatolozi.Add(new ObjectId(s.Id.ToString()));
+               
+            }
+
             Tehnicar t3 = new Tehnicar
             {
                 Ime = "Milos",
                 Prezime = "Milosevic",
                 Stomatolozi = new List<ObjectId>()
             };
-            t3.Stomatolozi.Add(new ObjectId("6025bed6b40d411c47819c28"));
-            t3.Stomatolozi.Add(new ObjectId("6025bb1baa45380a97b7a9d2"));
-
+            //t3.Stomatolozi.Add(new ObjectId("6025bed6b40d411c47819c28"));
+            // t3.Stomatolozi.Add(new ObjectId("6025bb1baa45380a97b7a9d2"));
+            foreach (Stomatolog s in query2)
+            {
+                t2.Stomatolozi.Add(new ObjectId(s.Id.ToString()));
+               
+            }
+            foreach (Stomatolog s in query1)
+            {
+                t1.Stomatolozi.Add(new ObjectId(s.Id.ToString()));
+                
+            }
             collection.InsertOne(t1);
             collection.InsertOne(t2);
             collection.InsertOne(t3);
         }
+
+        
+        private void SviTehnicari_Click(object sender, EventArgs e)
+        {
+            SviTehnicari formatehnicari = new SviTehnicari();
+            formatehnicari.Show();
+        }
+
+        
     }
+    
 }
