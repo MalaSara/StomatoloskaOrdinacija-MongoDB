@@ -58,5 +58,43 @@ namespace StomatoloskaOrdinacija
             SviStomatolozi forma = new SviStomatolozi();
             forma.Show();
         }
+
+        private void DodajTehnicara_Click(object sender, EventArgs e)
+        {
+            var client = new MongoClient("mongodb+srv://kate:ordinacija@stomatoloskaordinacija.l28eb.mongodb.net/<stomatoloskaOrdinacija>?retryWrites=true&w=majority");
+            var database = client.GetDatabase("stomatoloskaOrdinacija");
+
+            var collection = database.GetCollection<Tehnicar>("tehnicari");
+
+            Tehnicar t1 = new Tehnicar
+            {
+                Ime = "Andjela",
+                Prezime = "Milovanovic",
+                Stomatolozi = new List<ObjectId>()
+   
+            };
+            t1.Stomatolozi.Add(new ObjectId("6025bb1baa45380a97b7a9d2"));
+            
+            Tehnicar t2 = new Tehnicar
+            {
+                Ime = "Aleksandar",
+                Prezime = "Petrovic",
+                Stomatolozi=new List<ObjectId>()
+            };
+            t2.Stomatolozi.Add(new ObjectId("6025bed6b40d411c47819c28"));
+      
+            Tehnicar t3 = new Tehnicar
+            {
+                Ime = "Milos",
+                Prezime = "Milosevic",
+                Stomatolozi = new List<ObjectId>()
+            };
+            t3.Stomatolozi.Add(new ObjectId("6025bed6b40d411c47819c28"));
+            t3.Stomatolozi.Add(new ObjectId("6025bb1baa45380a97b7a9d2"));
+
+            collection.InsertOne(t1);
+            collection.InsertOne(t2);
+            collection.InsertOne(t3);
+        }
     }
 }
