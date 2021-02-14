@@ -65,18 +65,18 @@ namespace StomatoloskaOrdinacija
 
         private void btnAzurirajIntervencije_Click(object sender, EventArgs e)
         {
-            var client = new MongoClient("mongodb+srv://kate:ordinacija@stomatoloskaordinacija.l28eb.mongodb.net/<stomatoloskaOrdinacija>?retryWrites=true&w=majority");
+           var client = new MongoClient("mongodb+srv://kate:ordinacija@stomatoloskaordinacija.l28eb.mongodb.net/<stomatoloskaOrdinacija>?retryWrites=true&w=majority");
             var database = client.GetDatabase("stomatoloskaOrdinacija");
 
-            var collection = database.GetCollection<BsonDocument>("pacijenti");
+            var collection = database.GetCollection<Pacijent>("pacijenti");
 
             if (lvPacijenti.SelectedItems.Count != 0)
             {
                 if (tbIntervencija.Text != null)
                 {
                     ObjectId id = new ObjectId(lvPacijenti.SelectedItems[0].SubItems[0].Text);
-                    var filter = Builders<BsonDocument>.Filter.Eq("_id", id);
-                    var update = Builders<BsonDocument>.Update.Set("Intervencije", tbIntervencija.Text);
+                    var filter = Builders<Pacijent>.Filter.Eq("_id", id);
+                    var update = Builders<Pacijent>.Update.Push("Intervencije", tbIntervencija.Text);
 
                     collection.UpdateOne(filter, update);
                     lvPacijenti.Items.Clear();
@@ -103,7 +103,7 @@ namespace StomatoloskaOrdinacija
                 {
                     ObjectId id = new ObjectId(lvPacijenti.SelectedItems[0].SubItems[0].Text);
                     var filter = Builders<BsonDocument>.Filter.Eq("_id", id);
-                    var update = Builders<BsonDocument>.Update.Set("BolestiIzAnamneze", tbBolest.Text);
+                    var update = Builders<BsonDocument>.Update.Push("BolestiIzAnamneze", tbBolest.Text);
 
                     collection.UpdateOne(filter, update);
                     lvPacijenti.Items.Clear();

@@ -103,9 +103,9 @@ namespace StomatoloskaOrdinacija
             var database = client.GetDatabase("stomatoloskaOrdinacija");
 
             var collection = database.GetCollection<Pacijent>("pacijenti");
-            var stomatoloziCollection = database.GetCollection<Stomatolog>("stomatolog");
+            var stomatoloziCollection = database.GetCollection<Stomatolog>("stomatolozi");
 
-            Stomatolog data = stomatoloziCollection.Find(x => x.Ime == "Emilija").Single();
+            Stomatolog data = stomatoloziCollection.Find(x => x.Ime == "Emilija").First();
             Pacijent p1 = new Pacijent
             {
                 BrojKartona = 1,

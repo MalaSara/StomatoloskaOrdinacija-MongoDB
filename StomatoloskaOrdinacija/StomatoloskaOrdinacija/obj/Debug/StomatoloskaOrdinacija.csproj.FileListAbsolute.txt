@@ -82,3 +82,4 @@ E:\Projekat NBP 3\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\Stomatol
 E:\Projekat NBP 3\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\obj\Debug\StomatoloskaOrdinacija.csproj.CopyComplete
 E:\Projekat NBP 3\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\obj\Debug\StomatoloskaOrdinacija.exe
 E:\Projekat NBP 3\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\obj\Debug\StomatoloskaOrdinacija.pdb
+E:\Projekat NBP 3\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\obj\Debug\StomatoloskaOrdinacija.Pacijenti.resources
