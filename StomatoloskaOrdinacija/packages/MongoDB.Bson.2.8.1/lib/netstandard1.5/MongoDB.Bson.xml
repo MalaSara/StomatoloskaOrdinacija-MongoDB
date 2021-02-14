@@ -240,13 +240,6 @@
             <param name="format">The error message format string.</param>
             <param name="args">One or more args for the error message.</param>
         </member>
-        <member name="M:MongoDB.Bson.BsonException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Initializes a new instance of the BsonException class (this overload used by deserialization).
-            </summary>
-            <param name="info">The SerializationInfo.</param>
-            <param name="context">The StreamingContext.</param>
-        </member>
         <member name="T:MongoDB.Bson.BsonInternalException">
             <summary>
             Represents a BSON internal exception (almost surely the result of a bug).
@@ -269,13 +262,6 @@
             </summary>
             <param name="message">The error message.</param>
             <param name="innerException">The inner exception.</param>
-        </member>
-        <member name="M:MongoDB.Bson.BsonInternalException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Initializes a new instance of the BsonInternalException class (this overload used by deserialization).
-            </summary>
-            <param name="info">The SerializationInfo.</param>
-            <param name="context">The StreamingContext.</param>
         </member>
         <member name="T:MongoDB.Bson.BsonSerializationException">
             <summary>
@@ -300,13 +286,6 @@
             <param name="message">The error message.</param>
             <param name="innerException">The inner exception.</param>
         </member>
-        <member name="M:MongoDB.Bson.BsonSerializationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Initializes a new instance of the BsonSerializationException class (this overload used by deserialization).
-            </summary>
-            <param name="info">The SerializationInfo.</param>
-            <param name="context">The StreamingContext.</param>
-        </member>
         <member name="T:MongoDB.Bson.DuplicateBsonMemberMapAttributeException">
             <summary>
             Indicates that an attribute restricted to one member has been applied to multiple members.
@@ -324,13 +303,6 @@
             </summary>
             <param name="message">The message.</param>
             <param name="inner">The inner.</param>
-        </member>
-        <member name="M:MongoDB.Bson.DuplicateBsonMemberMapAttributeException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Initializes a new instance of the <see cref="T:MongoDB.Bson.DuplicateBsonMemberMapAttributeException" /> class.
-            </summary>
-            <param name="info">The info.</param>
-            <param name="context">The context.</param>
         </member>
         <member name="T:MongoDB.Bson.TruncationException">
             <summary>
@@ -354,13 +326,6 @@
             </summary>
             <param name="message">The error message.</param>
             <param name="innerException">The inner exception.</param>
-        </member>
-        <member name="M:MongoDB.Bson.TruncationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Initializes a new instance of the TruncationException class (this overload used by deserialization).
-            </summary>
-            <param name="info">The SerializationInfo.</param>
-            <param name="context">The StreamingContext.</param>
         </member>
         <member name="T:MongoDB.Bson.IO.IArrayElementNameAccelerator">
             <summary>
@@ -2009,25 +1974,10 @@
         <member name="P:MongoDB.Bson.IO.BsonStreamAdapter.WriteTimeout">
             <inheritdoc/>
         </member>
-        <member name="M:MongoDB.Bson.IO.BsonStreamAdapter.BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)">
-            <inheritdoc/>
-        </member>
-        <member name="M:MongoDB.Bson.IO.BsonStreamAdapter.BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)">
-            <inheritdoc/>
-        </member>
-        <member name="M:MongoDB.Bson.IO.BsonStreamAdapter.Close">
-            <inheritdoc/>
-        </member>
         <member name="M:MongoDB.Bson.IO.BsonStreamAdapter.CopyToAsync(System.IO.Stream,System.Int32,System.Threading.CancellationToken)">
             <inheritdoc/>
         </member>
         <member name="M:MongoDB.Bson.IO.BsonStreamAdapter.Dispose(System.Boolean)">
-            <inheritdoc/>
-        </member>
-        <member name="M:MongoDB.Bson.IO.BsonStreamAdapter.EndRead(System.IAsyncResult)">
-            <inheritdoc/>
-        </member>
-        <member name="M:MongoDB.Bson.IO.BsonStreamAdapter.EndWrite(System.IAsyncResult)">
             <inheritdoc/>
         </member>
         <member name="M:MongoDB.Bson.IO.BsonStreamAdapter.Flush">

@@ -96,5 +96,47 @@ namespace StomatoloskaOrdinacija
             collection.InsertOne(t2);
             collection.InsertOne(t3);
         }
+
+        private void btnDodajPacijenta_Click(object sender, EventArgs e)
+        {
+            var client = new MongoClient("mongodb+srv://kate:ordinacija@stomatoloskaordinacija.l28eb.mongodb.net/<stomatoloskaOrdinacija>?retryWrites=true&w=majority");
+            var database = client.GetDatabase("stomatoloskaOrdinacija");
+
+            var collection = database.GetCollection<Pacijent>("pacijenti");
+            var stomatoloziCollection = database.GetCollection<Stomatolog>("stomatolog");
+
+            Stomatolog data = stomatoloziCollection.Find(x => x.Ime == "Emilija").Single();
+            Pacijent p1 = new Pacijent
+            {
+                BrojKartona = 1,
+                Ime = "Marko",
+                Prezime = "Markovic",
+                DatumRodjenja = new BsonDateTime(new DateTime(1995, 10, 10)),
+                Intervencije = new List<string> { "sert1", "sert2" },
+                BolestiIzAnamneze = new List<string> { "penicilin", "ketoprofen", "ibuprofen" },
+                stomatolog = data.Id
+            };
+
+            collection.InsertOne(p1);
+
+            Pacijent p2 = new Pacijent
+            {
+                BrojKartona = 2,
+                Ime = "Milan",
+                Prezime = "Milanovic",
+                DatumRodjenja = new BsonDateTime(new DateTime(1991, 5, 10)),
+                Intervencije = new List<string> { "sert1", "sert2" },
+                BolestiIzAnamneze = new List<string> { },
+                stomatolog = data.Id
+            };
+
+            collection.InsertOne(p2);
+        }
+
+        private void btnPrikaziIzmeni_Click(object sender, EventArgs e)
+        {
+            Pacijenti forma = new Pacijenti();
+            forma.Show();
+        }
     }
 }

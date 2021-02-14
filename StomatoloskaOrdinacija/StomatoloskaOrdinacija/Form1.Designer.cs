@@ -33,10 +33,13 @@ namespace StomatoloskaOrdinacija
             this.btnSviStomatolozi = new System.Windows.Forms.Button();
             this.btnDodajStomatologa = new System.Windows.Forms.Button();
             this.grpTehnicar = new System.Windows.Forms.GroupBox();
-            this.grbPacijent = new System.Windows.Forms.GroupBox();
             this.DodajTehnicara = new System.Windows.Forms.Button();
+            this.grbPacijent = new System.Windows.Forms.GroupBox();
+            this.btnDodajPacijenta = new System.Windows.Forms.Button();
+            this.btnPrikaziIzmeni = new System.Windows.Forms.Button();
             this.grbStomatolog.SuspendLayout();
             this.grpTehnicar.SuspendLayout();
+            this.grbPacijent.SuspendLayout();
             this.SuspendLayout();
             // 
             // grbStomatolog
@@ -80,15 +83,6 @@ namespace StomatoloskaOrdinacija
             this.grpTehnicar.TabStop = false;
             this.grpTehnicar.Text = "Tehnicar";
             // 
-            // grbPacijent
-            // 
-            this.grbPacijent.Location = new System.Drawing.Point(479, 12);
-            this.grbPacijent.Name = "grbPacijent";
-            this.grbPacijent.Size = new System.Drawing.Size(200, 251);
-            this.grbPacijent.TabIndex = 2;
-            this.grbPacijent.TabStop = false;
-            this.grbPacijent.Text = "Pacijent";
-            // 
             // DodajTehnicara
             // 
             this.DodajTehnicara.Location = new System.Drawing.Point(33, 32);
@@ -98,6 +92,37 @@ namespace StomatoloskaOrdinacija
             this.DodajTehnicara.Text = "Dodaj tehnicara";
             this.DodajTehnicara.UseVisualStyleBackColor = true;
             this.DodajTehnicara.Click += new System.EventHandler(this.DodajTehnicara_Click);
+            // 
+            // grbPacijent
+            // 
+            this.grbPacijent.Controls.Add(this.btnPrikaziIzmeni);
+            this.grbPacijent.Controls.Add(this.btnDodajPacijenta);
+            this.grbPacijent.Location = new System.Drawing.Point(479, 12);
+            this.grbPacijent.Name = "grbPacijent";
+            this.grbPacijent.Size = new System.Drawing.Size(200, 251);
+            this.grbPacijent.TabIndex = 2;
+            this.grbPacijent.TabStop = false;
+            this.grbPacijent.Text = "Pacijent";
+            // 
+            // btnDodajPacijenta
+            // 
+            this.btnDodajPacijenta.Location = new System.Drawing.Point(25, 33);
+            this.btnDodajPacijenta.Name = "btnDodajPacijenta";
+            this.btnDodajPacijenta.Size = new System.Drawing.Size(130, 22);
+            this.btnDodajPacijenta.TabIndex = 0;
+            this.btnDodajPacijenta.Text = "Dodaj pacijenta";
+            this.btnDodajPacijenta.UseVisualStyleBackColor = true;
+            this.btnDodajPacijenta.Click += new System.EventHandler(this.btnDodajPacijenta_Click);
+            // 
+            // btnPrikaziIzmeni
+            // 
+            this.btnPrikaziIzmeni.Location = new System.Drawing.Point(25, 95);
+            this.btnPrikaziIzmeni.Name = "btnPrikaziIzmeni";
+            this.btnPrikaziIzmeni.Size = new System.Drawing.Size(130, 23);
+            this.btnPrikaziIzmeni.TabIndex = 1;
+            this.btnPrikaziIzmeni.Text = "Prikazi i izmeni";
+            this.btnPrikaziIzmeni.UseVisualStyleBackColor = true;
+            this.btnPrikaziIzmeni.Click += new System.EventHandler(this.btnPrikaziIzmeni_Click);
             // 
             // StomatoloskaOrdinacija
             // 
@@ -111,6 +136,7 @@ namespace StomatoloskaOrdinacija
             this.Text = "Stomatoloska ordinacija";
             this.grbStomatolog.ResumeLayout(false);
             this.grpTehnicar.ResumeLayout(false);
+            this.grbPacijent.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -123,6 +149,8 @@ namespace StomatoloskaOrdinacija
         private System.Windows.Forms.Button btnDodajStomatologa;
         private System.Windows.Forms.Button btnSviStomatolozi;
         private System.Windows.Forms.Button DodajTehnicara;
+        private System.Windows.Forms.Button btnDodajPacijenta;
+        private System.Windows.Forms.Button btnPrikaziIzmeni;
     }
 }
 
