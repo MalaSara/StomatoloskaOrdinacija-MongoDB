@@ -17,6 +17,6 @@ namespace StomatoloskaOrdinacija
         public BsonDateTime DatumRodjenja { get; set; }
         public List<string> Intervencije { get; set; }
         public List<string> BolestiIzAnamneze { get; set; }
-        public ObjectId Stomatolog { get; set; }
+        public ObjectId stomatolog { get; set; }
     }
 }

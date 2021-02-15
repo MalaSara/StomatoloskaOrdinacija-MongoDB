@@ -57,3 +57,4 @@ D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\Stomatolo
 D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\obj\Debug\StomatoloskaOrdinacija.SviTehnicari.resources
 D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\System.Buffers.dll
 D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\elfak\moje\IV godina\7 semestar\NBP\Domaci3\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\obj\Debug\StomatoloskaOrdinacija.SviTehnicari.resources

@@ -27,7 +27,8 @@ namespace StomatoloskaOrdinacija
             var database = client.GetDatabase("stomatoloskaOrdinacija");
 
             var collection = database.GetCollection<Stomatolog>("stomatolozi");
-
+            var collectionTehnicari = database.GetCollection<Tehnicar>("tehnicari");
+            var collectionPacijenti = database.GetCollection<Pacijent>("pacijenti");
 
             Stomatolog s1 = new Stomatolog
             {
@@ -36,8 +37,16 @@ namespace StomatoloskaOrdinacija
                 Prezime = "Mladenovic",
                 GodineIskustva = 2,
                 Sertifikati = new List<string> { "sert1", "sert2" },
-                ZakazaniTermini = new List<BsonDateTime> { DateTime.Now, DateTime.Today.AddDays(2) }
+                ZakazaniTermini = new List<BsonDateTime> { DateTime.Now, DateTime.Today.AddDays(2) },
+                Pacijenti = new List<ObjectId>(),
+                Tehnicari = new List<ObjectId>()
             };
+
+            var t1 = collectionTehnicari.Find((i => i.Ime == "Aleksandar")).FirstOrDefault();
+            s1.Tehnicari.Add(new ObjectId(t1.Id.ToString()));
+
+            var p1 = collectionPacijenti.Find((i => i.BrojKartona == 1)).FirstOrDefault();
+            s1.Pacijenti.Add(new ObjectId(p1.Id.ToString()));
 
             collection.InsertOne(s1);
 
@@ -46,8 +55,17 @@ namespace StomatoloskaOrdinacija
                 Specijalizacija = "Proteticar",
                 Ime = "Slavica",
                 Prezime = "Mladenovic",
-                GodineIskustva = 20
+                GodineIskustva = 20,
+                Pacijenti = new List<ObjectId>(),
+                Tehnicari = new List<ObjectId>()
             };
+
+            var t2 = collectionTehnicari.Find((i => i.Ime == "Andjela")).FirstOrDefault();
+            s2.Tehnicari.Add(new ObjectId(t2.Id.ToString()));
+
+            var p2 = collectionPacijenti.Find((i => i.BrojKartona == 2)).FirstOrDefault();
+            s2.Pacijenti.Add(new ObjectId(p2.Id.ToString()));
+
 
             collection.InsertOne(s2);
 
@@ -84,7 +102,8 @@ namespace StomatoloskaOrdinacija
                 t1.Stomatolozi.Add(new ObjectId(s.Id.ToString()));
                 
             }
-            
+
+
             Tehnicar t2 = new Tehnicar
             {
                 Ime = "Aleksandar",
