@@ -27,7 +27,6 @@ F:\elfak\moje\IV godina\7 semestar\NBP\Domaci3\StomatoloskaOrdinacija-MongoDB\St
 F:\elfak\moje\IV godina\7 semestar\NBP\Domaci3\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\obj\Debug\StomatoloskaOrdinacija.StomatoloskaOrdinacija.resources
 F:\elfak\moje\IV godina\7 semestar\NBP\Domaci3\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\obj\Debug\StomatoloskaOrdinacija.SviStomatolozi.resources
 F:\elfak\moje\IV godina\7 semestar\NBP\Domaci3\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\obj\Debug\StomatoloskaOrdinacija.csprojAssemblyReference.cache
-D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\mongocrypt.dll
 D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\MongoDB.Bson.dll
 D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\MongoDB.Driver.Core.dll
 D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\MongoDB.Driver.dll
@@ -46,13 +45,10 @@ D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\Stomatolo
 D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\StomatoloskaOrdinacija.exe.config
 D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\StomatoloskaOrdinacija.exe
 D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\StomatoloskaOrdinacija.pdb
-D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\MongoDB.LibMongocrypt.dll
 D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\Crc32C.NET.dll
 D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\DnsClient.dll
-D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\Snappy.NET.dll
 D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\Crc32C.NET.xml
 D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\DnsClient.xml
-D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\Snappy.NET.xml
 D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\SharpCompress.dll
 E:\Projekat NBP 3\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\StomatoloskaOrdinacija.exe.config
 E:\Projekat NBP 3\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\StomatoloskaOrdinacija.exe
@@ -83,3 +79,10 @@ E:\Projekat NBP 3\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\Stomatol
 E:\Projekat NBP 3\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\obj\Debug\StomatoloskaOrdinacija.exe
 E:\Projekat NBP 3\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\obj\Debug\StomatoloskaOrdinacija.pdb
 E:\Projekat NBP 3\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\obj\Debug\StomatoloskaOrdinacija.Pacijenti.resources
+D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\obj\Debug\StomatoloskaOrdinacija.Pacijenti.resources
+D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\obj\Debug\StomatoloskaOrdinacija.SviTehnicari.resources
+D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\System.Buffers.dll
+D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\System.Buffers.xml
+D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\Snappy.NET.dll
+D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\Snappy.NET.xml
