@@ -117,6 +117,12 @@
     <Compile Include="SviStomatolozi.Designer.cs">
       <DependentUpon>SviStomatolozi.cs</DependentUpon>
     </Compile>
+    <Compile Include="SviTehnicari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SviTehnicari.Designer.cs">
+      <DependentUpon>SviTehnicari.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tehnicar.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -136,6 +142,9 @@
     </Compile>
     <EmbeddedResource Include="SviStomatolozi.resx">
       <DependentUpon>SviStomatolozi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SviTehnicari.resx">
+      <DependentUpon>SviTehnicari.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="libmongocrypt.dylib" />
     <None Include="libmongocrypt.so" />

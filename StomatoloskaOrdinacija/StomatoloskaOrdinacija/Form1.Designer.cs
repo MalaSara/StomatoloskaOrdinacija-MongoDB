@@ -33,8 +33,9 @@ namespace StomatoloskaOrdinacija
             this.btnSviStomatolozi = new System.Windows.Forms.Button();
             this.btnDodajStomatologa = new System.Windows.Forms.Button();
             this.grpTehnicar = new System.Windows.Forms.GroupBox();
-            this.DodajTehnicara = new System.Windows.Forms.Button();
             this.grbPacijent = new System.Windows.Forms.GroupBox();
+            this.SviTehnicari = new System.Windows.Forms.Button();
+            this.DodajTehnicara = new System.Windows.Forms.Button();
             this.btnDodajPacijenta = new System.Windows.Forms.Button();
             this.btnPrikaziIzmeni = new System.Windows.Forms.Button();
             this.grbStomatolog.SuspendLayout();
@@ -52,6 +53,7 @@ namespace StomatoloskaOrdinacija
             this.grbStomatolog.TabIndex = 0;
             this.grbStomatolog.TabStop = false;
             this.grbStomatolog.Text = "Stomatolog";
+           
             // 
             // btnSviStomatolozi
             // 
@@ -75,6 +77,7 @@ namespace StomatoloskaOrdinacija
             // 
             // grpTehnicar
             // 
+            this.grpTehnicar.Controls.Add(this.SviTehnicari);
             this.grpTehnicar.Controls.Add(this.DodajTehnicara);
             this.grpTehnicar.Location = new System.Drawing.Point(248, 12);
             this.grpTehnicar.Name = "grpTehnicar";
@@ -123,6 +126,14 @@ namespace StomatoloskaOrdinacija
             this.btnPrikaziIzmeni.Text = "Prikazi i izmeni";
             this.btnPrikaziIzmeni.UseVisualStyleBackColor = true;
             this.btnPrikaziIzmeni.Click += new System.EventHandler(this.btnPrikaziIzmeni_Click);
+            //
+            this.SviTehnicari.Location = new System.Drawing.Point(33, 78);
+            this.SviTehnicari.Name = "SviTehnicari";
+            this.SviTehnicari.Size = new System.Drawing.Size(135, 23);
+            this.SviTehnicari.TabIndex = 5;
+            this.SviTehnicari.Text = "Svi tehnicari";
+            this.SviTehnicari.UseVisualStyleBackColor = true;
+            this.SviTehnicari.Click += new System.EventHandler(this.SviTehnicari_Click);
             // 
             // StomatoloskaOrdinacija
             // 
@@ -151,6 +162,7 @@ namespace StomatoloskaOrdinacija
         private System.Windows.Forms.Button DodajTehnicara;
         private System.Windows.Forms.Button btnDodajPacijenta;
         private System.Windows.Forms.Button btnPrikaziIzmeni;
+        private System.Windows.Forms.Button SviTehnicari;
     }
 }
 
