@@ -34,7 +34,6 @@ D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\Stomatolo
 D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\MongoDB.Bson.xml
 D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\MongoDB.Driver.xml
 D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\MongoDB.Driver.Core.xml
-D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\obj\Debug\StomatoloskaOrdinacija.csprojAssemblyReference.cache
 D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\obj\Debug\StomatoloskaOrdinacija.StomatoloskaOrdinacija.resources
 D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\obj\Debug\StomatoloskaOrdinacija.Properties.Resources.resources
 D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\obj\Debug\StomatoloskaOrdinacija.SviStomatolozi.resources
@@ -55,6 +54,6 @@ D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\Stomatolo
 D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\Snappy.NET.xml
 D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\SharpCompress.dll
 D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\obj\Debug\StomatoloskaOrdinacija.SviTehnicari.resources
-D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\System.Buffers.dll
 D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
 F:\elfak\moje\IV godina\7 semestar\NBP\Domaci3\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\obj\Debug\StomatoloskaOrdinacija.SviTehnicari.resources
+D:\FAKS\4.GODINA\Napredne baze podataka\StomatoloskaOrdinacija-MongoDB\StomatoloskaOrdinacija\StomatoloskaOrdinacija\bin\Debug\System.Buffers.dll
